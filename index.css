@@ -1,5 +1,6 @@
 .gridcontainer {
     display: flex;
+    flex-wrap:wrap;
     flex-direction: row;
     width:100%;
     justify-content: space-around;
@@ -7,5 +8,22 @@
 
 .gridbox {
     flex-wrap: wrap;
-    display:center
+    display:center;
+}
+
+.newbie {
+    color:red;
+}
+
+.apprentice {
+    color:blue;
+}
+
+.master {
+    color:purple;
+}
+
+h1 {
+    background-color: gray;
+    text-align: center;
 }
